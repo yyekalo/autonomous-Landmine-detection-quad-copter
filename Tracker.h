@@ -1,13 +1,13 @@
 //
-//  LPS.hpp
+//   Tracker.hpp
 //  MachineVission
 //
 //  Created by Yekalo Berhane on 4/9/16.
 //  Copyright © 2016 Yikealo Abraha. All rights reserved.
 //
 
-#ifndef LPS_h
-#define LPS_h
+#ifndef  Tracker_h
+#define  Tracker_h
 
 #include <sstream>
 #include <string>
@@ -22,14 +22,14 @@
 #include "Vector.h"
 
 
-class quadCopter
+class Tracker
 {
 public:
-    quadCopter();
-    ~quadCopter();
+     Tracker();
+    ~ Tracker();
     
     Vector getCoordinate();
-    float  GetHeading();
+    float  getHeading();
     
     
 private:
@@ -47,4 +47,4 @@ private:
     
 };
 
-#endif /* LPS_hpp */
+#endif /*  Tracker_hpp */

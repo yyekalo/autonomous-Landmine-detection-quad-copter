@@ -1,14 +1,14 @@
 //
-//  LPS.cpp
+//   Tracker.cpp
 //  MachineVission
 //
 //  Created by Yekalo Berhane on 4/9/16.
 //  Copyright © 2016 Yikealo Abraha. All rights reserved.
 //
 
-#include "LPS.h"
+#include "Tracker.h"
 
-quadCopter::quadCopter()
+ Tracker:: Tracker()
 {
     
 }
@@ -18,7 +18,7 @@ quadCopter::quadCopter()
 
 
 
-quadCopter::~quadCopter()
+ Tracker::~ Tracker()
 {
 
 }
@@ -34,7 +34,7 @@ Vector getCoordinate()
     int cmaeraheight;
     Mat bgr_image=imread("/Users/yekaloberhane/Documents/School/AutoCartProject/Software/MachineVission/MachineVission/img_20160322_151534823-2.jpg");
     double angle=getActualAngle(bgr_image,Get_coordinate(bgr_image));
-    double BetaAngle=getDeviationAngle(Get_coordinate(bgr_image), bgr_image,DistanceBetweenPoints , quadcopter);
+    double BetaAngle=getDeviationAngle(Get_coordinate(bgr_image), bgr_image,DistanceBetweenPoints ,  Tracker);
     double Raduis= cmaeraheight*tan(BetaAngle);
     
     Vector possition = Vector(cos(angle)*Raduis,sin(angle)*Raduis,cmaeraheight);
@@ -46,7 +46,7 @@ Vector getCoordinate()
 
 
 
-float  GetHeading()
+float  getHeading()
 {
     
 }
