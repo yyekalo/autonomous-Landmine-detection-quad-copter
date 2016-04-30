@@ -12,11 +12,11 @@
 #include <stdio.h>
 #include <iostream>
 
-class Vector
+class Position
 {
 public:
-    Vector(float x=0,float y=0, float z=0);
-    ~Vector();
+    Position(float x=0,float y=0, float z=0);
+    ~Position();
     
     void setX(float x);
     void setY(float y);

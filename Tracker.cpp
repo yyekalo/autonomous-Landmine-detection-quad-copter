@@ -1,12 +1,12 @@
 //
-//  LPS.cpp
+//   Tracker.cpp
 //  MachineVission
 //
 //  Created by Yekalo Berhane on 4/9/16.
 //  Copyright © 2016 Yikealo Abraha. All rights reserved.
 //
 
-#include "LPS.h"
+#include "Tracker.h"
 
 quadCopter::quadCopter()
 {
