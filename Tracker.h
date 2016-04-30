@@ -22,11 +22,11 @@
 #include "Vector.h"
 
 
-class quadCopter
+class Tracker
 {
 public:
-    quadCopter();
-    ~quadCopter();
+     Tracker();
+    ~ Tracker();
     
     Vector getCoordinate();
     float  GetHeading();
