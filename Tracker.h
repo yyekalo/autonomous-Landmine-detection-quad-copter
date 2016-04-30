@@ -29,7 +29,7 @@ public:
     ~ Tracker();
     
     Vector getCoordinate();
-    float  GetHeading();
+    float  getHeading();
     
     
 private:

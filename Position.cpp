@@ -10,6 +10,7 @@
 
 Position::Position(float x,float y, float z)
 {
+	//asdd
     setX(x);
     setY(y);
     setZ(z);

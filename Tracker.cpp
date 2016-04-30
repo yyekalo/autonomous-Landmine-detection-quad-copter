@@ -46,7 +46,7 @@ Vector getCoordinate()
 
 
 
-float  GetHeading()
+float  getHeading()
 {
     
 }
