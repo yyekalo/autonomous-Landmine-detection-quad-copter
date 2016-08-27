@@ -35,7 +35,7 @@ private:
     
     int vendorid;
     
-     unsigned char buffer[32];
+     char buffer[32];
     
     
     
